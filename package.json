@@ -11,17 +11,29 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "localforage": "^1.10.0",
+    "lucide-react": "^0.411.0",
+    "match-sorter": "^6.3.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.25.1",
+    "sort-by": "^0.0.2",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
+    "@types/node": "^20.14.11",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
     "@typescript-eslint/parser": "^6.18.1",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.19",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.1.0",
@@ -33,7 +45,10 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^8.0.0",
     "lint-staged": "^15.2.0",
+    "postcss": "^8.4.39",
     "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.6",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }
