@@ -6,15 +6,18 @@ import './global.css';
 
 import { Toaster } from 'sonner';
 
+import { ThemeProvider } from './components/theme/theme-provider';
 import { router } from './routes';
 
 export function App() {
   return (
     <HelmetProvider>
-      <Helmet titleTemplate="%s | pizza.shop" />
-      <RouterProvider router={router} />
+      <ThemeProvider storageKey="pizzashop-theme" defaultTheme="dark">
+        <Helmet titleTemplate="%s | pizza.shop" />
+        <RouterProvider router={router} />
 
-      <Toaster richColors />
+        <Toaster richColors />
+      </ThemeProvider>
     </HelmetProvider>
   );
 }
