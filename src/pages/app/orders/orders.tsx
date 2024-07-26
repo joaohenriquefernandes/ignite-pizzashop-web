@@ -38,7 +38,9 @@ export function Orders() {
               </TableHeader>
 
               <TableBody>
-                <OrderTableRow />
+                {Array.from({ length: 10 }).map(() => (
+                  <OrderTableRow key={Math.random()} />
+                ))}
               </TableBody>
             </Table>
           </div>
